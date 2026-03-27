@@ -2,4 +2,4 @@ NAME = svc
 
 
 $(NAME):
-	cl main.c Advapi32.lib
+	cl /Fe"$(NAME)" main.c Advapi32.lib 
