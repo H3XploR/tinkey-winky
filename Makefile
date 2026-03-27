@@ -1,5 +1,4 @@
-NAME = svc
+SERVICE = svc
 
-
-$(NAME):
-	cl /Fe"$(NAME)" main.c Advapi32.lib 
+$(SERVICE):
+	cl /Fe"$(SERVICE)" tinky.c Advapi32.lib 
